@@ -61,3 +61,4 @@ You can deploy this project using any static site hosting service like Vercel, N
 ## Can I connect a custom domain to my project?
 
 Yes, you can! The process will depend on your chosen hosting provider. Please refer to their documentation for specific instructions on setting up a custom domain.
+# lectopia-audio-explore
