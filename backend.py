@@ -33,7 +33,7 @@ client = None
 logger.warning("Using mock data for testing without OpenAI API key.")
 
 # Load the model once at startup (choose 'base', 'small', 'medium', or 'large')
-model = WhisperModel("base", device="cpu", compute_type="int8")
+model = WhisperModel("tiny", device="cpu", compute_type="int8")
 
 # Create rich mock data for better testing
 def create_mock_segments(duration=300):
