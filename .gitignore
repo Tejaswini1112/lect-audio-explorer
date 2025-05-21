@@ -71,3 +71,4 @@ out/
 .vscode/
 *.swp
 *.swo
+.vercel

@@ -18,7 +18,10 @@ logger = logging.getLogger(__name__)
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Or specify your frontend URL
+    allow_origins=[
+        "https://lect-audio-explorer-3yy8bni6i-tejaswinis-projects-252f8206.vercel.app",
+        "https://lect-audio-explorer.onrender.com"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

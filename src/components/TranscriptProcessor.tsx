@@ -20,7 +20,7 @@ interface TranscriptProcessorProps {
 }
 
 // Set your deployed backend URL here
-const API_BASE = "https://lectopia-audio-explorer.onrender.com";
+const API_BASE = "https://lect-audio-explorer.onrender.com";
 
 async function uploadAndTranscribe(file: File) {
   // Show console message for debugging
